@@ -1,0 +1,220 @@
+#navigationcontainer{
+    padding: 5px;
+}
+#navbar{
+    list-style-type: none;
+align-content: center;
+
+margin-left: 10%;
+    margin-right: 10%;
+
+}
+#navbar li{
+    float: left;
+    font-size: 20px;
+    margin: 10px;
+    padding: 3px;
+    font-family: "Monotype Corsiva";
+
+}
+#navbar li:hover{
+    border-bottom: black 1px solid;
+}
+.imagespecs{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+}
+.roomimgs{ text-align: left;
+border: 1px solid white;
+    border-radius: 5px;
+}
+#selectdate{
+
+    height: 420px;
+    padding: 15px;
+    align-content: center;
+    border: 1px solid black;
+    box-shadow: grey 2px 3px;
+    box-sizing: border-box;
+}
+
+
+#bookbtn{
+    text-align: center;
+    background-color: gainsboro;
+    height: 50px;
+}
+#bookbtn div{ margin-top: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px;
+
+}
+.datenumber{
+    text-align: center;background-color: white;border-radius: 100px;width: 20px; height: 20px;
+}
+#datediv{position: relative;
+    margin-top: 20px;
+}
+#bookbtn div:hover{ border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid;
+    box-shadow: 1px 2px grey;
+    background-color: white;
+}
+#boycheck{
+
+    background-color: lightgrey;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#trialbtn{
+    padding: 20px;
+    margin-top:10px ;
+    background-color: #2aabd2;
+    text-align: center;
+}
+
+#Hname{
+    margin-top: -20px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Monospaced";
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+
+}
+#Hlocation{
+    margin-top: -15px;
+    padding: 5px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.lessopacity{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 991px) {
+    #Hname{
+        margin-top: 10px;
+    }
+}
+#Hstars{
+
+    margin-left: 33px;
+    font-size: 17px;
+}
+.amenitiesimgs{
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow:grey -1px 1px 6px 3px;
+    margin: 20px;
+}
+.faciliteshead{
+    font-size: 25px;
+        margin: 30px 0;
+    text-decoration: #2aabd2 underline solid;
+}
+
+#cont2{
+    margin-top: 35px;
+}
+.priceinfo{ height: 220px;
+    border: 1px solid black; margin: 20px;
+    padding: 20px;
+
+}
+
+#acblock{
+    border-radius: 10px;
+    box-shadow:grey -1px 1px 6px 3px;
+
+}
+.priceinfospan{
+    font-size: 12px;
+    color: darkgray;
+}
+.priceinfosettings{
+margin-bottom: 10px;
+    padding: 10px;
+}
+dd{
+    font-size: 15px;
+    padding: 5px;
+}
+dt{
+    font-size: 20px;
+   font-family: "Menlo";
+
+
+text-transform: uppercase;
+    letter-spacing: 0.2px;
+}
+.reviewssets{
+
+    font-size: 15px;
+    margin: 27px 0;
+}
+.reviewssets span{
+    margin-left: 30px;
+}
+.neighbourbtns{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+#footerdiv{
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: lightgrey;
+    position: relative;
+}
+#footerdiv span{
+    margin: 30px 20px;
+
+}
+#footerdiv i{
+    margin: 25px 7px;
+    font-size: 25px;
+}
+#currplace{
+    z-index: 0;
+    position: absolute;right: 100px;opacity: 0.8;top: 50%;width: 100px;height: 100px; border-radius: 100px; background-color: lightskyblue;
+}
+.hiddendiv{
+    z-index: 1;
+    box-sizing: border-box;padding: 10px;text-align: center;background-color:rgb(72,72,72);position: absolute;top: -40px ;opacity: 1;color: white;display: none;
+}
+#currplace:hover div{
+    display: block;
+}
+.nearbyplace{
+    text-align: center;width: 40px; height: 40px; border-radius: 100px;background-color: gray;color: white;
+    position: absolute;
+}
+
+.nearbyplace:hover div{
+    display: block;
+}
+.nearbyhidden{
+    border-radius: 4px;
+    z-index: 1;
+    font-size: 12px;
+    width: 150px;height: 60px;padding: 10px;text-align: center;background-color:rgb(72,72,72);position: absolute;top: -70px;left: -20px ;opacity: 0.8;color: white;display: none;
+
+}
